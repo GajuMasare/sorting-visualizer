@@ -1,7 +1,7 @@
 # Sorting visualizer
 An interactive Sorting algorithm visualizer made using React.js (vite)
 
-## Live preview:
+## Live visualizer:
 https://gajumasare.github.io/sorting-visualizer/
 
 ## The supported algorithms so far are:
