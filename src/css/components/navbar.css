@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navBar-mainContiner {
+  display: flex;
+  height: 60px;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navBar-title {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.navbar-settingbarMain {
+  width: 560px;
+}
+.navBar-settingsContiner {
+  transform: scale(0.7);
+  position: relative;
+  width: 673px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-sortStart {
+  height: 60.24px;
+  width: 176px;
+  border-radius: 36px;
+  font-size: 22px;
+  font-weight: 600;
+  background-image: url(../../assets//btnNormal.png);
+  background-size: cover;
+  color: #ffffff;
+  letter-spacing: 1px;
+  transition: background-image 0.3s ease;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3),
+    0 10px 30px rgba(64, 100, 228, 0.3), -20px -20px 50px rgba(42, 94, 142, 0.5),
+    10px 20px 40px rgba(122, 33, 237, 0.3);
+}
+
+#btn-sortStart:hover {
+  background-image: url(../../assets/btnHover.png);
+}
+
+#select-SMDropdown {
+  color: #ffffff;
+  height: 60.24px;
+  min-width: 246px;
+  max-width: 246px;
+  border-radius: 36px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-image: url(../../assets/selectSMNormal.png);
+  background-size: cover;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3),
+    0 20px 30px rgba(64, 100, 228, 0.3), -20px -20px 50px rgba(42, 94, 142, 0.5),
+    5px 10px 40px rgba(122, 33, 237, 0.3);
+  transition: background-image 0.3s ease;
+}
+
+#select-SMDropdown:hover {
+  background-image: url(../../assets/selectSMHover.png);
+}
+
+#decoArrowDown {
+  height: 22.59px;
+  width: 24.48px;
+}
+
+#btn-newArray {
+  height: 64px;
+  width: 191px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 36px;
+  color: #ffffff;
+  background-image: url(../../assets/btnNewArrayNormal.png);
+  background-size: cover;
+  transition: background-image 0.3s ease;
+  box-shadow: 0 16px 32px rgba(104, 1, 255, 0.15),
+    0 -16px 32px rgba(104, 1, 255, 0.15);
+}
+
+#btn-newArray:hover {
+  background-image: url(../../assets/btnNewArrayHover.png);
+  box-shadow: 0 16px 32px rgba(104, 1, 255, 0.15),
+    0 -16px 32px rgba(104, 1, 255, 0.15), 0 0px 10px rgba(104, 1, 255, 0.25);
+}
+
+#select-dropDownMenu {
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #474747;
+  width: 246px;
+  border-color: #8371f3;
+}
+
+#select-dropDownMenu-item {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+#select-dropDownMenu-itemLast {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#select-dropDownMenu-item:hover {
+  color: #8265f4;
+  background-color: transparent;
+}
+
+#select-dropDownMenu-itemLast:hover {
+  color: #8265f4;
+  background-color: transparent;
+}

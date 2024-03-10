@@ -1,0 +1,72 @@
+.custom-mainDiv {
+  border: 2px solid #a868fe;
+  background-color: rgba(255, 255, 255, 0.06);
+  width: 100%;
+  height: 160px;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.custom-titleDiv {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 20px;
+  color: #8371f3;
+}
+
+#custom-arrayIcon {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.custom-sizeSliderDiv {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: #f6f6f6;
+  line-height: 0.1;
+  height: 20px;
+}
+
+#custom-input {
+  width: 100%;
+}
+
+.custom-speedSliderDiv {
+  height: 25px;
+  line-height: 0.1;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: #f6f6f6;
+}
+
+#custom-input {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+  background: #c7d3eb; /* Default color of the track */
+  outline: none;
+  margin: 5px 0;
+}
+
+#custom-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #8371f3; /* Color of the thumb */
+  cursor: pointer;
+}
+
+#custom-input:hover::-webkit-slider-thumb {
+  background: #6c5ec9;
+}

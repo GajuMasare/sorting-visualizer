@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgba(2, 0, 24, 1);
+  overflow: hidden;
+}
+
+.ap-decoBgCpircle {
+  width: 100%; /* Set your desired width percentage */
+  height: 50%; /* Set your desired height percentage */
+  background-color: rgba(
+    128,
+    0,
+    255,
+    0.33
+  ); /* Set your desired background color with alpha (transparency) */
+  border-radius: 50%;
+
+  position: absolute;
+  overflow: hidden;
+  z-index: -3;
+  top: 75%;
+  backdrop-filter: blur(100px);
+  filter: blur(200px);
+}
+
+.appMainDiv {
+  padding: 30px;
+  width: 1520px;
+  height: 790px;
+}
+
+.secondDiv {
+  display: flex;
+  margin-top: 3%;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+}
+
+.secondDivOne {
+  width: 320px;
+}
+
+.secondDivTwo {
+  width: 1110px;
+}
