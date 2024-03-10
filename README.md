@@ -1,8 +1,17 @@
-# React + Vite
+# Sorting visualizer
+An interactive Sorting algorithm visualizer made using React.js (vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The supported algorithms so far are:
+1. Bubble Sort
+2. Heap Sort
+3. Insertion Sort
+4. Marge Sort
+5. Quick Sort
+6. Selection Sort
 
-Currently, two official plugins are available:
+### How to run?
+1. Pull the repo.
+2. After pulling the repo run "npm i" or "npm install" to get all the required packages.
+3. To run on local run the command "npm run dev"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. 
