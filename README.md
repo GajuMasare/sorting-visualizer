@@ -1,6 +1,9 @@
 # Sorting visualizer
 An interactive Sorting algorithm visualizer made using React.js (vite)
 
+## Live preview:
+https://gajumasare.github.io/sorting-visualizer/
+
 ## The supported algorithms so far are:
 1. Bubble Sort
 2. Heap Sort
@@ -9,7 +12,7 @@ An interactive Sorting algorithm visualizer made using React.js (vite)
 5. Quick Sort
 6. Selection Sort
 
-## How to run?
+## How to run locally?
 1. Pull the repo.
 2. After pulling the repo run "npm i" or "npm install" to get all the required packages.
 3. To run locally run the command "npm run dev"
