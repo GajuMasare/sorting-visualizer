@@ -9,9 +9,18 @@ An interactive Sorting algorithm visualizer made using React.js (vite)
 5. Quick Sort
 6. Selection Sort
 
-### How to run?
+## How to run?
 1. Pull the repo.
 2. After pulling the repo run "npm i" or "npm install" to get all the required packages.
-3. To run on local run the command "npm run dev"
+3. To run locally run the command "npm run dev"
 
-4. 
+## Preview
+https://github.com/GajuMasare/sorting-visualizer/assets/113698192/d3557a77-39b6-4251-b3e5-c2b819906af5
+
+### Any questions?
+Feel free to ask or connect with me via
+Gmail: gajumasare@gmail.com
+Linkdein: https://www.linkedin.com/in/gaju-masare-b8085b271/
+
+
+
